@@ -1,0 +1,59 @@
+body {
+  background-color: #eee;
+  display: flex-wrap;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 16px;
+  border-radius: 16px;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 16px;
+  box-shadow: inset -4px -4px 10px 4px #fff, inset 4px 4px 10px 4px #c4c4c4;
+  color: #aaa;
+  font-size: 18px;
+  transition: 0.2s ease-out;
+  margin-top: 4vh;
+}
+
+input:focus {
+  box-shadow: inset -1px -1px 3px 1px #fff, inset 1px 1px 3px 1px #c4c4c4;
+}
+
+button {
+  margin-left: 55%;
+  border-radius: 16px;
+  color: #aabbbb;
+  border: 3px solid transparent;
+  padding: 13px;
+  font-weight: 700;
+  box-shadow: -4px -4px 13px 4px #fff, 4px 4px 13px 4px #c4c4c4;
+  outline: none;
+}
+
+button:focus {
+  box-shadow: -4px -4px 13px 4px #fff, 4px 4px 13px 4px #c4c4c4;
+}
+
+button:hover {
+  box-shadow: -3px -3px 8px 3px #fff, 3px 3px 8px 3px #c4c4c4;
+}
+
+button:active {
+  color: black;
+  box-shadow: -4px -4px 13px 4px #c4c4c4, 4px 4px 13px 4px #fff;
+  border-color: #dfdfdf;
+}
+
+h1,
+h3,
+.reponse {
+  margin-left: 15%;
+}
